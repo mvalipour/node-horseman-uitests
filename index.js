@@ -1,3 +1,5 @@
+#! /usr/bin/env node
+
 var Horseman = require('node-horseman');
 var horseman = new Horseman({ ignoreSSLErrors: true, timeout : 10000 });
 
