@@ -57,7 +57,7 @@ function testPage(area, ix, donePage) {
     horseman
       .open(page.rootUrl + page.path)
       .wait(3000)
-      .screenshot(outputPath+area.name+'/'+page.name+'.png')
+      .screenshot('/' + outputPath+area.name+'/'+page.name+'.png')
       .do(function () {
           testPage(area, ix+1, donePage);
       });
